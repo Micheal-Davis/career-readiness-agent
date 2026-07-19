@@ -1,0 +1,32 @@
+[project]
+name = "career-knowledge-agent"
+version = "0.1.0"
+description = "一个可解释的 RAG + Tool Use 个人知识库 Agent"
+requires-python = ">=3.11"
+dependencies = [
+  "chromadb>=1.0.0",
+  "fastapi>=0.115.0",
+  "langchain>=1.0.0,<2.0.0",
+  "langchain-chroma>=1.0.0",
+  "langchain-openai>=1.0.0",
+  "langchain-text-splitters>=1.0.0",
+  "langgraph-checkpoint-sqlite>=3.0.0",
+  "python-dotenv>=1.0.0",
+  "python-docx>=1.1.0",
+  "python-multipart>=0.0.9",
+  "pypdf>=5.0.0",
+  "requests>=2.0.0",
+  "streamlit>=1.40.0",
+  "uvicorn>=0.30.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
