@@ -1,7 +1,7 @@
 [project]
 name = "career-knowledge-agent"
 version = "0.1.0"
-description = "一个可解释的 RAG + Tool Use 个人知识库 Agent"
+description = "本地优先、以证据约束的求职准备智能体"
 requires-python = ">=3.11"
 dependencies = [
   "chromadb>=1.0.0",
