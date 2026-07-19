@@ -118,11 +118,3 @@ python -m pytest -q
 ```
 
 当前版本的全量验证结果为：**71 passed**。
-
-## 技术栈
-
-Python · FastAPI · Streamlit · SQLite · LangChain · Chroma · Pydantic · OpenAI 兼容模型 API · pytest
-
-## 简历项目条目
-
-可直接复用的中文简历描述见：[docs/resume/career-readiness-agent.md](docs/resume/career-readiness-agent.md)。
