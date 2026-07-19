@@ -2,7 +2,7 @@
 
 **Career Readiness Agent（求职准备智能体）**          **独立开发**                  **2026.07-至今**
 
-**Github 链接：**待发布
+**Github 链接：**[Micheal-Davis/career-readiness-agent](https://github.com/Micheal-Davis/career-readiness-agent)
 
 **技术栈：**Python、FastAPI、Streamlit、SQLite、LangChain、Chroma、Pydantic、OpenAI 兼容模型 API、pytest
 
